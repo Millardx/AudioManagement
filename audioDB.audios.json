@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "66cb7b01849eae15d24eee88"
+  },
+  "title": "Onclick",
+  "filePath": "uploads\\1724611329526-good-job_d15pHHg.mp3",
+  "format": "MP3",
+  "uploadedAt": {
+    "$date": "2024-08-25T18:42:09.531Z"
+  },
+  "__v": 0,
+  "assignedTo": "Onload",
+  "isAssignedToOnclick": false,
+  "isAssignedToOnload": false
+},
+{
+  "_id": {
+    "$oid": "66cb86fa76d8b1245db48d36"
+  },
+  "title": "Onload",
+  "filePath": "uploads\\1724614394429-sugoi-sugoi.mp3",
+  "format": "MP3",
+  "uploadedAt": {
+    "$date": "2024-08-25T19:33:14.438Z"
+  },
+  "__v": 0,
+  "isAssignedToOnclick": false,
+  "isAssignedToOnload": true,
+  "assignedTo": "Onclick"
+},
+{
+  "_id": {
+    "$oid": "66ce519113559c651fb2a23e"
+  },
+  "title": "Onclick 2",
+  "originalName": "suka-blyat-2.mp3",
+  "filePath": "uploads\\1724797329426-suka-blyat-2.mp3",
+  "format": "MP3",
+  "isAssignedToOnload": false,
+  "isAssignedToOnclick": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ce63989dfeb7c4b2de7f7f"
+  },
+  "title": "Onload 2",
+  "originalName": "anime-wow-sound-effect.mp3",
+  "filePath": "uploads\\1724801944354-anime-wow-sound-effect.mp3",
+  "format": "MP3",
+  "isAssignedToOnload": false,
+  "isAssignedToOnclick": false,
+  "__v": 0
+}]
