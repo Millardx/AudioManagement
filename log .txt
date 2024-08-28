@@ -1,0 +1,43 @@
+8/24
+Uploading Works and the audio files stored in mongo db in the process. 
+When uploading Don't Forget to Enter Name for the Audio file because its required in Models/Audio.js. 
+
+--Next Task
+    Create a MainPage with button that will direct to OnloadPage to show the function.
+        In OnloadPage should contain button for Onclick. 
+
+---Audio Management page is needed? since Admin/Staff need to organize the audio file that will be shown in the different buttons.
+        AM = can change/place the audio existed in DB to its designated button. 
+                eg. changing the onload audio or updating onclick audio file using this. Like its used should routing the audio to its path.
+            = can update/delete/add
+
+
+8/25 
+
+ Created a MainPage with button that will direct to OnloadPage to show the function.
+ In OnloadPage contained button for Onclick. 
+ Added an allowed format type and the format type is also recorded in the DB.
+ Added an Error Handling and Validation.
+ Added a required for title and a file before uploading 
+ Added a messages each steps like File Error/Successful to upload and Confirming the file that will be replaced in DB before uploading the new file.
+Added a simple SCSS
+Done : 1st option - Need a Specified naming for the Onload and Onclick to be able to route for their designated page or buttons.
+
+--Next Task 
+    Creating the 2nd and 3rd option for the uploading the audio files. 
+        2nd : Multiple Designated uploading option for every onload pages or onlick buttons. 
+                
+        3rd : Audio Management table that will handle uploading and manually assigning the audio files for their designated page or button route/path.
+
+
+8/28 
+
+    Considered as Finished 
+            /-The only need here for this project is the backend logic to be used in the Main page of Interactive map.
+            --Audio management may implemented in the capstone project becuase of its function for proper and convenient way in assigning audio for the Map.
+                -AM just need more design improvement and some Error handling and validations.
+
+
+
+--- Added Comments in the codes 
+    -- -- added delete and update in AM .
